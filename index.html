@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>JavaScript - DOM</title>
+</head>
+
+<body>
+    <!-- <h1> JavaScript</h1>
+    <input id="main-input" placeholder="Digite aqui" name="nome-completo">
+    <p> Começando nossa jornada para aprender</p>
+    <p class="paragraph-js"> A linguagem de <b>Programação</b> mais versátil do mundo!</p>
+    <button onclick="cliqueiNoBotao()" class="main-button"> Clique aqui</button> -->
+
+    <!-- <input id="main-input" placeholder="Digite aqui" name="nome-completo">
+
+    <select>
+        <option value="opcao1">HTML</option>
+        <option value="opcao2">CSS</option>
+        <option value="opcao3">REACT</option>
+        <option value="opcao3">NODE</option>
+    </select>
+
+    <button class="main-button"> Clique aqui</button> -->
+
+    <section class="wrapper">
+        <section>
+            <img class="image" src="./assets/give-money.png" alt="money">
+        </section>
+
+        <main class="container">
+            <section class="convert">
+                <label class="converter-de">
+                    Converter <b>de:</b>
+
+                    <select id="option-convert-from">
+                        <option value="real" class="option-real">R$ Real Brasileiro</option>
+                        <option value="dolar" class="option-dolar">US$ Dolar Americano</option>
+                        <option value="euro" class="option-euro">€ Euro</option>
+                    </select>
+                </label>
+
+                <label class="converter-para">
+                    Converter <b>para:</b>
+
+                    <select id="change-currency">
+                        <option value="dolar">US$ Dólar Americano</option>
+                        <option value="euro">€ Euro</option>
+                        <option value="real">R$ Real Brasileiro</option>
+                    </select>
+                </label>
+
+                <label class="valor">
+                    <b>Valor:</b>
+                    <input class="input-currency" type="text" placeholder="Digite o valor">
+                </label>
+
+
+                <div class="button-container">
+                    <button class="convert-button"> Converter</button>
+                </div>
+            </section>
+
+            <div id="box">
+                <div class="brasil">
+                    <img class="brasil-logo" src="./assets/brazil-.png" alt="Brasil">
+                    <h4 class="currencyReal">Real</h4>
+                    <span class="currency-value-to-convert">R$ 0,00</span>
+                </div>
+
+                <div class="arrow">
+                    <img src="./assets/money-exchange.png" alt="Seta">
+                </div>
+
+                <div class="eua">
+                    <img class="american-logo" src="./assets/united-states.png" alt="EUA">
+                    <h4 class="currency">Dólar Americano</h4>
+                    <span class="currency-value">US$ 0,00</span>
+                </div>
+            </div>
+
+        </main>
+    </section>
+</body>
+
+</html>

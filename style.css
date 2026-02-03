@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: auto;
+    margin: 50px auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    color: black;
+    width: 25%;
+    padding: 44px 24px 23px;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+}
+
+
+label {
+    color: #777777;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+select,
+.input-currency {
+    background-color: #FFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 58px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding: 18px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .convert-button {
+        width: 100%;
+        padding: 15px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        background-color: rgb(177, 2, 177);
+        color: #FFF;
+        outline: none;
+        border: none;
+        margin: 20px 0;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    & .convert-button:hover {
+        opacity: .8;
+    }
+
+    & .convert-button:active {
+        transform: scale(.98);
+        opacity: .6;
+    }
+}
+
+#box {
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+    border: 1px solid purple;
+    padding: 12px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.brasil {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+
+    & img {
+        width: 80px;
+        height: auto;
+    }
+
+}
+
+.arrow {
+    & img {
+        width: 80px;
+        height: auto;
+    }
+}
+
+.eua {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    margin-top: 30px;
+
+    & img {
+        width: 80px;
+        height: auto;
+    }
+
+}
+
+.currency {
+    font-size: 1rem;
+    color: #777777;
+}
+
+.currency-value-to-convert,
+.currency-value {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
